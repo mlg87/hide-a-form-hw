@@ -1,0 +1,183 @@
+/* page and main container styling */
+
+body {
+	background-color: #ecf0f1;
+	color: #2c3e50;
+}
+
+.main-feed {
+	background-color: #fff;
+	margin: auto;
+	width: 740px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.main-content-container {
+	/*padding: 30px;*/
+	border-top-right-radius: 10px;
+}
+
+/* profile header styling */
+
+.profile-header {
+	background-color: #B25416;
+	padding: 30px 30px 50px;
+	width: 100%;
+	box-sizing: border-box;
+	color: #fff;
+	height: 200px;
+	border-bottom: 20px solid #fff;
+}
+
+.heading-styling {
+	display: inline-block;
+	margin: 0;
+}
+
+.show-form {
+	border: 2px solid #B25416;
+	padding: 20px 40px 20px;
+	float: right;
+	background-color: #fff;
+	color: #B25416;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+.show-form:hover {
+	background-color: #B25416;
+	color: #fff;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+}
+
+.show-form:focus {
+	outline-color: #B25416;
+}
+
+/* profile picture and user name container styling */
+
+.user-page-header {
+	height: 200px;
+	border-top: 10px solid #2c3e50;
+	border-bottom: 10px double #B25416;
+	box-sizing: border-box;
+}
+
+.prof-pic-container {
+	/*height: 150px;*/
+	padding: 20px 40px 20px;
+	display: inline-block;
+	box-sizing: border-box;
+	float: right;
+}
+
+.user-prof-pic {
+	border-radius: 100%;
+	/*height: 150px;
+	width: 150px;*/
+}
+
+.user-name-display {
+	padding: 40px;
+	margin: auto;
+	/*float: right;*/
+	/*clear: both;*/
+	display: inline-block;
+	color: #2c3e50;
+}
+
+/* user-information */
+
+.user-info-container {
+	padding: 40px;
+}
+
+/* form styling */
+
+.form-container {
+	padding: 30px;
+}
+
+.form-container fieldset {
+	border-right: none;
+	border-left: none;
+	border-color: #A8A8A8;
+}
+
+.form-container legend {
+	padding: 0 10px 0;
+	color: #A8A8A8;
+	font-size: .8em;
+}
+
+.form-container p {
+	text-align: right;
+}
+
+.form-container input {
+	width: 366px;
+}
+
+.form-container input:focus {
+	outline-color: #B25416;
+}
+
+.form-container textarea:focus {
+	outline-color: #B25416;
+}
+
+.form-container label {
+	padding: 20px;
+	color: #B25416;
+	font-weight: bold;
+}
+
+.user-info-submit {
+	width: 100%;
+	border: 2px solid #B25416;
+	background-color: #fff;
+	color: #B25416;
+	padding: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+.user-info-submit:hover {
+	background-color: #B25416;
+	color: #fff;
+}
+
+.user-info-submit:focus {
+	outline-color: #fff;
+}
+
+/* styling for the placeholder text */
+
+::-webkit-input-placeholder {
+   font-weight: lighter;
+   font-size: .8em;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-weight: lighter;
+   font-size: .8em;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-weight: lighter;
+   font-size: .8em;
+}
+
+:-ms-input-placeholder {  
+   font-weight: lighter;
+   font-size: .8em;
+}
+
+/* inactive class to hide the form until 'show form' is clicked*/
+
+.inactive {
+	display: none;
+}
